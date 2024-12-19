@@ -1,8 +1,7 @@
-# React + Vite
+# Props Drilling & React Lifecycle Methods
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Props Drilling: 
+- Passing data down through multiple levels of nested components, often leading to code complexity.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## React Lifecycle Methods: 
+- Functions that execute at specific points in a component's existence (e.g., mounting, updating, unmounting), allowing for side effects and data management.
