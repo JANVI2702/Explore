@@ -5,7 +5,7 @@ function State({state,city}) {
   return (
     <div>
 
-      <h2>hello From :{state}</h2>
+      <p className='fw-normal5 fs-5 '>Hello from : {state}</p>
       <City city={city}/>
     </div>
   )

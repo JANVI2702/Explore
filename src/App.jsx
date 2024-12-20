@@ -27,14 +27,22 @@ function App() {
   return (
     
     
-      <body>
-     <Country country={country} state={state} city={city} />
-     <hr />
-    <h1>Component Lifecycle</h1>
-    <h3>count{count}</h3>
-    <button className="btn1" onClick={()=> handleIncrement()}>Increase</button>
-      {isActive?<Text1/>:<Text2/>}
-      <button className="btn1" onClick={()=>setActive(!isActive)}>Change</button>
+      <body className='bg-dark bg-gradient' >
+        <div className='container vh-100 d-flex justify-content-center align-items-center'>
+          <div className='bg-transparent text-center'>
+            <div className='card '>
+           <Country country={country} state={state} city={city} />
+           </div>
+          
+            <h1 className='text-info mt-5'>Component Lifecycle</h1>
+             <div className=' '>
+            <p className='text-white fw-normal fs-5 '>count : {count}</p>
+            <button className='btn btn-outline-info' onClick={()=> handleIncrement()} >Increase</button>
+             {isActive?<Text1/>:<Text2/>}
+            <button className="btn btn-outline-info fw-normal  " onClick={()=>setActive(!isActive)}>Change</button>
+            </div>
+          </div>
+        </div>
       </body>
     
     

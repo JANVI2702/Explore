@@ -7,7 +7,7 @@ function Country({country,state,city}) {
   return (
     <div>
       <h1>Props Drealling</h1>
-      <h2>HEllo from {country}</h2>
+      <p className='fw-normal5 fs-5' >Hello from : {country}</p>
       <State state={state}  city={city}/>
     </div>
   )

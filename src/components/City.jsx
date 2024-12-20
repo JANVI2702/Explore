@@ -3,7 +3,7 @@ import React from 'react'
 function City({city}) {
   return (
     <div>
-      <h2>hello From:{city}</h2>
+      <p className='fw-normal5 fs-5 '>Hello from : {city}</p>
     </div>
   )
 }

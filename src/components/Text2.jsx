@@ -3,7 +3,7 @@ import React from 'react'
 function Text2() {
   return (
     <div>
-      <h2>hello from text2</h2>
+      <p className='text-white fs-5 mt-2'>hello from text : 2</p>
     </div>
   )
 }

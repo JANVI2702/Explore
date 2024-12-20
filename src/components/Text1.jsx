@@ -13,7 +13,7 @@ function Text1() {
     <div>
         
         
-      <h2>hello from text 1</h2>
+      <p className='text-white fs-5 mt-2'>hello from text : 1</p>
     </div>
   )
 }
